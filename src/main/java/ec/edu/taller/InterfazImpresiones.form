@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ec.edu.taller.InterfazImpresiones">
+  <grid id="root1" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="640" height="560"/>
+    </constraints>
+    <properties>
+      <preferredSize width="640" height="560"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="tabs1" binding="pestanas">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="640" height="560"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="reg01" binding="panelRegistrar" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="12">
+            <margin top="40" left="40" bottom="20" right="40"/>
+            <constraints>
+              <tabbedpane title="REGISTRAR TRABAJO"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="reg02" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="CÓDIGO"/>
+                </properties>
+              </component>
+              <component id="reg03" class="javax.swing.JTextField" binding="txtCodigo">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="300" height="28"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="reg04" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="SOLICITANTE"/>
+                </properties>
+              </component>
+              <component id="reg05" class="javax.swing.JComboBox" binding="cmbSolicitante">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="300" height="28"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="reg06" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="DOCUMENTO"/>
+                </properties>
+              </component>
+              <component id="reg07" class="javax.swing.JTextField" binding="txtDocumento">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="300" height="28"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="reg08" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="PRIORIDAD"/>
+                </properties>
+              </component>
+              <component id="reg09" class="javax.swing.JSpinner" binding="spnPrioridad">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="120" height="28"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="reg10" class="javax.swing.JButton" binding="btnRegistrar">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="230" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="REGISTRAR TRABAJO"/>
+                </properties>
+              </component>
+              <component id="reg11" class="javax.swing.JButton" binding="btnLimpiar">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="230" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="LIMPIAR ELEMENTOS"/>
+                </properties>
+              </component>
+              <vspacer id="reg12">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="ges01" binding="panelGestionar" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="6">
+            <margin top="20" left="30" bottom="20" right="30"/>
+            <constraints>
+              <tabbedpane title="GESTIONAR TRABAJOS"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ges02" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="CODIGO"/>
+                </properties>
+              </component>
+              <component id="ges03" class="javax.swing.JLabel" binding="lblValorCodigo">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="*"/>
+                </properties>
+              </component>
+              <component id="ges04" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="SOLICITANTE"/>
+                </properties>
+              </component>
+              <component id="ges05" class="javax.swing.JLabel" binding="lblValorSolicitante">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="*"/>
+                </properties>
+              </component>
+              <component id="ges06" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="DOCUMENTO"/>
+                </properties>
+              </component>
+              <component id="ges07" class="javax.swing.JLabel" binding="lblValorDocumento">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="*"/>
+                </properties>
+              </component>
+              <component id="ges08" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="PRIORIDAD"/>
+                </properties>
+              </component>
+              <component id="ges09" class="javax.swing.JLabel" binding="lblValorPrioridad">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="*"/>
+                </properties>
+              </component>
+              <component id="ges10" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="ESTADO"/>
+                </properties>
+              </component>
+              <component id="ges11" class="javax.swing.JLabel" binding="lblValorEstado">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="*"/>
+                </properties>
+              </component>
+              <component id="ges12" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <text value="TRABAJOS PENDIENTES (ORDENADOS: MENOR VALOR = MAYOR PRIORIDAD)"/>
+                </properties>
+              </component>
+              <scrollpane id="ges13">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="570" height="170"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="ges14" class="javax.swing.JTextArea" binding="txtPendientes">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <font name="Monospaced" size="12"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <grid id="ges15" binding="panelInferior" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="40" vgap="8">
+                <margin top="10" left="10" bottom="0" right="10"/>
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="ges16" class="javax.swing.JLabel" binding="lblPendientes">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14" style="1"/>
+                      <text value="PENDIENTES: 0"/>
+                    </properties>
+                  </component>
+                  <component id="ges17" class="javax.swing.JLabel" binding="lblDisponibles">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14" style="1"/>
+                      <text value="DISPONIBLES: 10"/>
+                    </properties>
+                  </component>
+                  <component id="ges18" class="javax.swing.JLabel" binding="lblCapacidad">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14" style="1"/>
+                      <text value="CAPACIDAD: 10"/>
+                    </properties>
+                  </component>
+                  <component id="ges19" class="javax.swing.JButton" binding="btnProcesar">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="230" height="34"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="PROCESAR"/>
+                    </properties>
+                  </component>
+                  <component id="ges20" class="javax.swing.JButton" binding="btnConsultar">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="230" height="34"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="CONSULTAR SIGUIENTE"/>
+                    </properties>
+                  </component>
+                  <component id="ges21" class="javax.swing.JButton" binding="btnListar">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="230" height="34"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="LISTAR"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
